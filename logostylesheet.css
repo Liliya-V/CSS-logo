@@ -1,0 +1,99 @@
+*{
+    box-sizing:border-box;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Asap', sans-serif;
+    font-weight:bold;
+}
+.container {
+    width: 765px;
+    position: relative;
+}
+.circle {
+    position: absolute;
+    left: 832px;
+    border: none;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+}
+.green {
+    width: 145px;
+    height: 150px;
+    background: #679d30;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+}
+
+.blue {
+    width: 90px;
+    height: 220px;
+    background: #317282;
+    border-radius: 50%;
+    position: absolute;
+    right:-4px;
+}
+.navy {
+    width: 130px;
+    height: 45px;
+    background: #1c4058;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+}
+.mandarin {
+    background: #c74e23;
+    width: 40px;
+    height: 60px;
+    position: absolute;
+    left: 56px;
+    bottom: 60px;
+    z-index: 4;
+}
+.A {
+    font-size: 210px;
+    color: white;
+    position: absolute;
+    left: 832px;
+    top: -46px;
+    z-index: 5;
+}
+
+.text {
+    color: #808080;
+    position: relative;
+    left: 12vw;
+    top: 115px;
+    font-size: 4.5rem;
+}
+
+.ridiculous-but-might-work-green {
+    background-color: #679d30;
+    width: 28px;
+    height: 14px;
+    position: absolute;
+    top: -2px;
+    right: 85px;
+    z-index: 7;
+}
+
+.ridiculous-but-might-work-white {
+    background-color: white;
+    width: 31px;
+    height: 34px;
+    position: absolute;
+    top: 0px;
+    right: 66px;
+    z-index: 8;
+    border-radius: 50%;
+}
+
+.i-wonder-if-it-will-help {
+    position: relative;
+}
+
